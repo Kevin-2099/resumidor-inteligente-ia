@@ -8,13 +8,17 @@ Asistente inteligente basado en IA que genera resúmenes estructurados de textos
 
 ✅ Estructura en viñetas: Pros, Contras, Recomendaciones, Conclusión.
 
-🔍 Análisis de texto completo, cortando en frases para mejor legibilidad.
+🔍 Análisis de texto completo, segmentando en frases para mejor legibilidad.
 
 🌐 Interfaz web accesible con Gradio.
 
-⚡ Resumen rápido usando modelo DistilBART de Hugging Face.
+⚡ Resumen rápido usando el modelo DistilBART de Hugging Face (sshleifer/distilbart-cnn-12-6).
 
 🧠 Detección automática del idioma con langdetect.
+
+💡 Extrae automáticamente frases de conclusión del texto original si están presentes.
+
+🔄 Filtra frases redundantes para entregar bullets únicos y coherentes.
 
 ## 🛠️ Tecnologías usadas
 
